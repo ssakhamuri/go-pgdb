@@ -1,6 +1,7 @@
 # go-pgdb
 Go lang project using PostgresDB
 
+
 Start the application using the below command:
 
 go run main.go
@@ -9,9 +10,13 @@ go run main.go
 Using postman make api calls to the application
 
 Create Forum:
+
 Method: Post
+
 URL: http://localhost:8080/api/forum
+
 Sample Body:
+
 {
     "name": "AWS Forum",
     "threads": [
@@ -27,9 +32,12 @@ Sample Body:
     ]
 }
 
-Get All Forum:
+Get All Forums:
+
 Method: Get
+
 URL: http://localhost:8080/api/forum/all
+
 
 To verfy the tables in postgres use the following commands:
 
