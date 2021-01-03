@@ -39,7 +39,7 @@ Method: Get
 URL: http://localhost:8080/api/forum/all
 
 
-To verfy the tables in postgres use the following commands:
+To verify the tables in postgres use the following commands:
 
 docker-compose up -d
 
