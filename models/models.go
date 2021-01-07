@@ -19,8 +19,6 @@ type Thread struct {
 	Title 			string	`json:"title"`
 	ForumID 		int		`json:"forumId"`
 	Posts   		[]Post	`json:"posts" gorm:"constraint:OnUpdate:CASCADE,OnDelete:SET NULL;"`
-	CreateDate  	int64   `json:"createDate"`
-	LastUpdateTime	int64   `json:"lastUpdateTime"`
 }
 
 type Post struct {
@@ -28,8 +26,6 @@ type Post struct {
 	Title 			string	`json:"title"`
 	Body 			string	`json:"body"`
 	ThreadID 		int		`json:"threadId"`
-	CreateDate  	int64   `json:"createDate"`
-	LastUpdateTime	int64   `json:"lastUpdateTime"`
 }
 
 func GetCurrentSystemTime() int64 {
