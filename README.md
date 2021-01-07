@@ -45,5 +45,9 @@ To verify the tables in postgres use the following commands:
 
 psql -h localhost -p 5432 -U postgres forum_threads
 
+To run tests in db folder:
+
+go test go-pgdb/db
+
 
 
