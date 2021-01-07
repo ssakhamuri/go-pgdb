@@ -20,14 +20,14 @@ URL: http://localhost:8080/api/forum
 Sample Body:
 
 {
-    "name": "AWS Forum",
+    "name": "Golang Forum",
     "threads": [
         {
-            "title": "AWS Thread",
+            "title": "Golang Thread",
             "posts": [
                 {
-                    "title": "AWS Post",
-                    "body": "AWS is Awesome"
+                    "title": "Golang Post",
+                    "body": "Golang is Simple and Easy"
                 }
             ]
         }
