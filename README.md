@@ -4,6 +4,8 @@ Go lang project using PostgresDB
 
 Start the application using the below command:
 
+docker-compose up -d
+
 go run main.go
 
 
@@ -40,8 +42,6 @@ URL: http://localhost:8080/api/forum/all
 
 
 To verify the tables in postgres use the following commands:
-
-docker-compose up -d
 
 psql -h localhost -p 5432 -U postgres forum_threads
 
